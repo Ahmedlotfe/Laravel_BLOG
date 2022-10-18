@@ -4,9 +4,12 @@
             {{ $post->title }}
         </h1>
         <div>
-            {!! $post->body !!}
+            <p>{{ $post->body }}</p>
         </div>
     </article>
-    <a href="/">Go Back</a>
+    <div style="margin-top: 20px;">
+        <a href="/">Go Back</a>
+    </div>
+
 </x-layout>
 
